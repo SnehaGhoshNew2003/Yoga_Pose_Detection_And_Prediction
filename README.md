@@ -31,7 +31,7 @@ Dataset Source Link: [data url](https://universe.roboflow.com/new-workspace-mujg
 ## Workflow
 
 ### 1. Input Handling:
-Accepts images or video frames for processing.
+Accepts images for processing.
 
 ### 2. Pose Detection (YOLO):
 Detects body parts or the entire pose region.<br>
