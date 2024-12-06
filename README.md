@@ -58,7 +58,6 @@ Displays results with bounding boxes and pose labels.
 2. Clone the repository
 ```
 git clone https://github.com/SnehaGhoshNew2003/Yoga_Pose_Detection_And_Prediction.git
-cd yoga-pose-detector
 ```
 3. Install the required libraries:
 ```
