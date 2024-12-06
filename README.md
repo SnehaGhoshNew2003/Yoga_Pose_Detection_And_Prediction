@@ -3,7 +3,7 @@
 
 ## Overview
 
-The Yoga Pose Detector is a deep learning-based project designed to analyze and classify yoga poses from images or video frames. By combining state-of-the-art object detection and image classification techniques, the project aims to assist users in identifying yoga poses accurately, which can be beneficial for fitness tracking, instructional purposes, or automated yoga tutorials.
+The Yoga Pose Detector is a real-time deep learning-based project designed to analyze and classify yoga poses from images or video frames using webcam. By combining state-of-the-art object detection and image classification techniques, the project aims to assist users in identifying yoga poses accurately, which can be beneficial for fitness tracking, instructional purposes, or automated yoga tutorials.
 
 ## Data
 The dataset used in this project is the roboflow's Yoga Pose Computer Vision Project, which includes numerous images for each of the 107 yoga poses.
@@ -31,7 +31,7 @@ Dataset Source Link: [data url](https://universe.roboflow.com/new-workspace-mujg
 ## Workflow
 
 ### 1. Input Handling:
-Accepts images for processing.
+Accepts images or video frames for processing.
 
 ### 2. Pose Detection (YOLO):
 Detects body parts or the entire pose region.<br>
@@ -48,7 +48,7 @@ Displays results with bounding boxes and pose labels.
 ## Prerequisites
 
 **1. Python Version:** Python 3.7+<br>
-**2. Libraries:** `tensorflow`, `keras`, `opencv-python`, `numpy`, `matplotlib`, `seaborn`, `cvzone`, `ultralytics`<br>
+**2. Libraries:** `tensorflow`, `keras`, `opencv-python`, `numpy`, `matplotlib`, `seaborn`, `cvzone`, `ultralytics`, `Pillow`<br>
 **3.** GPU for faster model inference (optional but recommended)<br>
 
 
